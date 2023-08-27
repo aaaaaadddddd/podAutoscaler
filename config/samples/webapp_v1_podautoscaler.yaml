@@ -1,0 +1,13 @@
+apiVersion: webapp.my.domain/v1
+kind: PodAutoscaler
+metadata:
+  labels:
+    app.kubernetes.io/name: podautoscaler
+    app.kubernetes.io/instance: podautoscaler-sample
+    app.kubernetes.io/part-of: podautoscaler
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: podautoscaler
+  name: podautoscaler-sample
+spec:
+  port: 6379
+  num: 3
