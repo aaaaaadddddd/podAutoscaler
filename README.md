@@ -26,7 +26,7 @@ chmod +x kubebuilder && mv kubebuilder /usr/local/bin/
 
 （1）创建CRD
 
-（2）创建Kind ：Redis
+（2）创建Kind ：PodAutoscaler
 
 （3）创建POD，支持副本数控制，验证
 
